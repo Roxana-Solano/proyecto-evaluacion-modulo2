@@ -92,7 +92,7 @@ npm run deploy
 
 ## 📸 Vista previa
 
-![Captura de la landing page](.)
+![Captura de la landing page](./public/images/proyect.png)
 
 ---
 
@@ -127,7 +127,7 @@ El proyecto está estructurado con el starter kit de Adalab, incluyendo:
 ## 🧪 Estado del proyecto
 
 ✅ **Finalizado**  
-📦 Publicado en GitHub Pages → [Ver demo](.)
+📦 Publicado en GitHub Pages → [Ver demo](https://roxana-solano.github.io/proyecto-evaluacion-modulo2/)
 
 ---
 
