@@ -1,0 +1,93 @@
+.maintitle{
+    color: aqua;
+    font-size: 2rem;
+    margin-left: 23px;
+}
+.search_anime{
+    padding-left: 25px;
+
+}
+.serieslist{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    justify-content: center;
+    li{
+        width: 200px;
+        text-align: center;
+        padding-top: 25px;
+        color: floralwhite;
+    }
+}
+.seriesfavorite{
+     li{
+        width: 200px;
+        text-align: center;
+        padding-top: 25px;
+        color: pink;
+    }
+    h4{
+        padding: 0px 5px 0px 5px;
+    }
+}
+.seriesfavorite,.serieslist{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    gap: 8%;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+.title_resul{
+    background-color: floralwhite;
+    margin: 0px;
+    text-align: center;
+
+}
+ .input_search{
+    width: 48%;
+    height: 21px;
+    font-size: 17px;
+    padding: 6px 11px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    border: 2px solid aqua;
+ } 
+ .bnt{
+    background-color: aqua;
+    color: black;
+    font-size: 12px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+ }
+ .lisresul{
+    border: 3px solid floralwhite;
+    margin-left: 1%;
+ }
+.lisfavorite{
+    border: 3px solid pink;
+    margin-left: 1%;
+ }
+ .title_favorite{
+    background-color: pink;
+    margin: 0px;
+    text-align: center;
+ }
+ .highligth{
+    border: 5px solid aqua;
+    color: aqua !important;
+ }
+
+ .hidden{
+    display: none;
+ }
