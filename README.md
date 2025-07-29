@@ -52,7 +52,7 @@ Este proyecto utiliza [Vite](https://vitejs.dev/) y el starter kit de Adalab.
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
+git clone https://github.com/Roxana-Solano/proyecto-evaluacion-modulo2.git
 cd nombre-del-repo
 ```
 
