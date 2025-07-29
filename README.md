@@ -1,35 +1,138 @@
-!(http://beta.adalab.es/modulo-2-evaluacion-final-Roxana-Solano/)
+![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-# Buscador de Series Anime 🎴
+# 🎌 Evaluación Final - Módulo 2 | Promo 53 - Adalab
 
-Este es un primer proyecto de JavaScript realizado para la evaluación del segundo módulo. Se trata de una aplicación web que busca series de anime con ayuda de una API pública y guarda las series favoritas para que sean visibles incluso despues de realizar una nueva búsqueda.
+Aplicación web desarrollada como evaluación final del Módulo 2 del bootcamp de Adalab.  
+Permite buscar series de anime, marcarlas como favoritas y guardarlas en `localStorage`. Todo el proyecto ha sido realizado usando HTML, Sass y JavaScript vanilla.
 
-# Funcionalidad
+---
 
-- Buscar series de anime por nombres usando una API (https://docs.api.jikan.moe/)
-- Mostrar los resultados con imagenes y título.
-- Guardar serie favoritas haciendo clic sobre ellas.
-- Mostrar una lista de favoritos que se conserva aunque se recargue la página con ("localStorage").
-- Botón para resetear la búsqueda y los favoritos.
+## 🔍 ¿Qué hace esta app?
 
-# Se uso
+- Permite buscar series de anime mediante la API de Jikan.
+- Muestra los resultados con imagen y título.
+- Puedes marcar series como favoritas.
+- Guarda tus favoritas en el almacenamiento local (localStorage).
+- Las favoritas se mantienen aunque recargues la página.
+- Puedes eliminar favoritas una a una o todas a la vez.
+- Tiene un botón de "reset" para limpiar búsqueda y favoritos.
+- Incluye diseño responsive y maquetación personalizada con Sass.
 
-- HTML
-- CSS
-- JavaScript
-- API
-- (localStorage)
+---
 
-# ¿Cómo arrancamos el proyecto?
+## ✨ Funcionalidades implementadas
 
-1. Descargar o clonar el repositorio desde GitHub.
-2. Abrir el archivo "index.HTML" y arrancharlo para visualizarlo en el navegador con npm run dev.
-3. Escribir el nombre de un anime en el campo de busqueda y pulsar "Buscar".
-4. Clica sobre cualquier serie que te guste para marcarla como favorita.
-5. Tus favoritas se guardarán y seguiran ahí si recargas la pagina.
-6. Pulsa "reset" si quieres borrar los resultados y favoritos.
+✅ Buscar series de anime  
+✅ Mostrar resultados con imagen y título  
+✅ Marcar/desmarcar favoritas  
+✅ Listado de favoritas persistente  
+✅ Guardado en `localStorage`  
+✅ Eliminar favoritas individualmente  
+✅ Eliminar todas las favoritas  
+✅ Reset general (input, resultados, favoritas)  
+✅ Maquetación responsive con Sass
 
-<!-- **Roxana**
-Estudiante de programación en formación.
-Proyecto realizado como parte del aprendizaje en JavaScript, HTML y CSS. -->
+---
 
+## 🧠 Tecnologías utilizadas
+
+- HTML5
+- Sass (con starter kit de Adalab)
+- JavaScript (vanilla)
+- Fetch API
+- Git y GitHub
+- GitHub Pages
+
+---
+
+## ⚙️ Cómo instalar y ejecutar el proyecto
+
+Este proyecto utiliza [Vite](https://vitejs.dev/) y el starter kit de Adalab.
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/nombre-del-repo.git
+cd nombre-del-repo
+```
+
+### 2. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3. Ejecutar en modo desarrollo
+
+```bash
+npm run dev
+```
+
+### 4. Crear version para producción
+
+```bash
+npm run build
+```
+
+### 4. Publicar en GitHub Pages
+
+```bash
+npm run deploy
+```
+
+---
+
+## 🔍 Requisitos:
+
+- Tener Node.js instalado.
+
+- Tener Git configurado en tu equipo.
+
+---
+
+## 📸 Vista previa
+
+![Captura de la landing page](.)
+
+---
+
+## 📁 Estructura del proyecto
+
+El proyecto está estructurado con el starter kit de Adalab, incluyendo:
+
+- `src/` → archivos fuente (HTML, Sass, JS)
+
+- `public/` → favicon y otros recursos
+
+- `docs/` → carpeta para GitHub Pages
+
+---
+
+## 📚 Aprendizajes clave
+
+- Uso de APIs con fetch y promesas.
+
+- Manipulación del DOM con JavaScript.
+
+- Almacenamiento de datos con localStorage.
+
+- Condicionales, eventos, arrays y funciones.
+
+- Diseño responsive con Flexbox y Sass.
+
+- Organización de código en módulos.
+
+---
+
+## 🧪 Estado del proyecto
+
+✅ **Finalizado**  
+📦 Publicado en GitHub Pages → [Ver demo](.)
+
+---
+
+## 🙋‍♀️ Autoría
+
+Realizado por **Roxana Solano** como parte del bootcamp de Adalab — Promo 53.
+
+---

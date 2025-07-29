@@ -108,14 +108,12 @@ function resetButton() {
   });
 }
 
-buttonLog.addEventListener("click", =>(ev){
-ev.preventDefault();
-    for(const anime of favorite){
-
-        console.log("ss", anime.title)
-    }
-})
-
+buttonLog.addEventListener("click", (ev) => {
+  ev.preventDefault();
+  for (const anime of favorite) {
+    console.log("ss", anime.title);
+  }
+});
 
 function start() {
   buttonSearch();
